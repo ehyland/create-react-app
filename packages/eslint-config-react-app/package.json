@@ -1,6 +1,6 @@
 {
   "name": "@ehyland-org/eslint-config-react-app",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "ESLint configuration used by Create React App",
   "repository": "facebookincubator/create-react-app",
   "license": "MIT",

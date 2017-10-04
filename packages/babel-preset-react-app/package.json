@@ -1,6 +1,6 @@
 {
   "name": "@ehyland-org/babel-preset-react-app",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "Babel preset used by Create React App",
   "repository": "facebookincubator/create-react-app",
   "license": "MIT",
