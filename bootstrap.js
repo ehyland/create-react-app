@@ -6,12 +6,7 @@ const { existsSync } = require('fs');
 const { platform } = require('os');
 
 function shouldUseYarn() {
-  try {
-    execSync('yarnpkg --version', { stdio: 'ignore' });
-    return true;
-  } catch (e) {
-    return false;
-  }
+  return false;
 }
 
 function shouldUseNpmConcurrently() {
