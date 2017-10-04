@@ -79,5 +79,8 @@
       "/fixtures/",
       "setupJest.js"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
