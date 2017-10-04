@@ -18,6 +18,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const chalk = require('chalk');
 const spawn = require('react-dev-utils/crossSpawn');
+const reactScriptsPackageName = require('../package.json').name;
 
 module.exports = function(
   appPath,
@@ -37,10 +38,10 @@ module.exports = function(
 
   // Setup the script rules
   appPackage.scripts = {
-    start: 'react-scripts start',
-    build: 'react-scripts build',
-    test: 'react-scripts test --env=jsdom',
-    eject: 'react-scripts eject',
+    start: reactScriptsPackageName + ' start',
+    build: reactScriptsPackageName + ' build',
+    test: reactScriptsPackageName + ' test --env=jsdom',
+    eject: reactScriptsPackageName + ' eject',
   };
 
   fs.writeFileSync(
